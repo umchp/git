@@ -30,7 +30,6 @@ const Item = (props) => {
              onClick={onDelete}>
                 X
              </button>
-              
                         <p>{props.title}</p>
                         <img className='rounded' src={props.img} width={'85%'}></img>
                         <p>{props.description}</p>
